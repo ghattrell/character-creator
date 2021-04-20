@@ -5,6 +5,15 @@
   /* background: green; */
 }
 
+.backgroundEffect {
+  position: fixed;
+  top:60%;
+  height: 40%;
+  left: 0;
+  width: 100%;
+  background: hsl(195deg, 20%, 86%);
+}
+
 .maxWidthWrapper {
   max-width: 1024px;
 }
@@ -12,7 +21,6 @@
 .header {
   padding-bottom: 64px;
   max-width: 65%;
-  display: inline-block;
 }
 
 .title {
@@ -34,13 +42,11 @@
   width: 35%;
   position: fixed;
   top: 0;
-  right: 0;
-  display: inline-block;
+  left: 60%;
   padding-right: 24px;
   padding-top: 24px;
 }
 
 .controlColumn {
   max-width: 50%;
-  display: inline-block;
 }
